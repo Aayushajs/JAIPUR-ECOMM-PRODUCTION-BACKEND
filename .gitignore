@@ -22,6 +22,7 @@ yarn-error.log*
 API_DOCUMENTATION.pdf
 PROJECT_REPORT.pdf
 TECHNICAL_DOCUMENTATION.pdf
+postman_collection.json
 
 # Editor directories and files
 .idea
