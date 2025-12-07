@@ -1,4 +1,4 @@
-# E-Commerce Backend API 🚀
+# E-Commerce Backend API 
 
 > **Production-Ready RESTful API with TypeScript, Node.js, and MongoDB.**
 
@@ -6,7 +6,7 @@
 [![Documentation](https://img.shields.io/badge/docs-comprehensive-blue)](./TECHNICAL_DOCUMENTATION.md)
 [![API Reference](https://img.shields.io/badge/api-reference-orange)](./API_DOCUMENTATION.md)
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#-overview)
 - [System Architecture](#%EF%B8%8F-system-architecture)
 - [Project Workflow](#-project-workflow)
@@ -14,14 +14,14 @@
 - [Project Structure](#-project-structure)
 - [Features](#-features)
 
-## 📖 Overview
+##  Overview
 This project is a high-performance backend system designed for scalable e-commerce applications. It implements advanced features like **Dual-token Authentication**, **Role-Based Access Control**, and **Cloud-Native Media Management**.
 
 **Key Documentation:**
-- 📘 [Technical Report & Architecture](./TECHNICAL_DOCUMENTATION.md) - Deep dive into design patterns and security.
-- 📙 [API Reference](./API_DOCUMENTATION.md) - List of all endpoints and usage.
+-  [Technical Report & Architecture](./TECHNICAL_DOCUMENTATION.md) - Deep dive into design patterns and security.
+-  [API Reference](./API_DOCUMENTATION.md) - List of all endpoints and usage.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### Authentication Flow (Secure)
 Requests are secured using short-lived JWTs and HttpOnly cookies.
@@ -45,7 +45,7 @@ sequenceDiagram
     S-->>C: 200 OK JSON
 ```
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ### Product Lifecycle
 From creation by Admin to review by User.
@@ -61,7 +61,7 @@ graph LR
     F -->|Recalculate Avg| D
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -93,7 +93,7 @@ graph LR
     npm start
     ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 src/
@@ -110,7 +110,7 @@ src/
 └── server.ts       # Server entry point
 ```
 
-## ✨ Features
+##  Features
 
 -   **Authentication**: JWT-based auth with Access and Refresh tokens.
 -   **Authorization**: Role-based access control (Admin, Customer).
