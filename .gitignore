@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+dist
+build
+
+# Misc
+.DS_Store
+.env
+.npm
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+API_DOCUMENTATION.pdf
+PROJECT_REPORT.pdf
+TECHNICAL_DOCUMENTATION.pdf
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# PDF Reports (Optional: Uncomment if you don't want to track derived docs)
+# *.pdf
