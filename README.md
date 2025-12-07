@@ -20,6 +20,7 @@ This project is a high-performance backend system designed for scalable e-commer
 **Key Documentation:**
 -  [Technical Report & Architecture](./TECHNICAL_DOCUMENTATION.md) - Deep dive into design patterns and security.
 -  [API Reference](./API_DOCUMENTATION.md) - List of all endpoints and usage.
+-  [Project Report](./PROJECT_REPORT.pdf) - Detailed project overview and implementation details.
 
 ##  System Architecture
 
