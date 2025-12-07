@@ -6,7 +6,7 @@
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 1.  [Abstract](#1-abstract)
 2.  [Chapter 1: Introduction](#2-chapter-1-introduction)

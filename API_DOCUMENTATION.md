@@ -1,13 +1,13 @@
 # E-Commerce API Documentation
 
-## 🚀 Overview
+##  Overview
 This is a production-ready RESTful API for an E-Commerce platform. It features secure authentication, role-based access control, product management, reviews, and image uploads.
 
 **Base URL**: `http://localhost:5000/api`
 
 ---
 
-## 🛠️ Authentication
+##  Authentication
 
 ### 1. Register User
 Create a new user account.
@@ -62,7 +62,7 @@ Reset password using the token received in email.
 
 ---
 
-## 📦 Products
+##  Products
 
 ### 1. Get All Products
 Retrieve a list of products with advanced filtering.
@@ -109,14 +109,14 @@ Add a rating and comment to a product.
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 - **Rate Limiting**: Limits requests per IP to prevent abuse.
 - **HPP**: Protects against HTTP Parameter Pollution.
 - **MongoSanitize**: Prevents NoSQL Injection attacks.
 - **XSS Protection**: Helmet headers set automatically.
 - **Validation**: Strict input validation using Zod schemas.
 
-## ⚠️ Error Codes
+##  Error Codes
 - **400**: Bad Request (Invalid Input, Duplicate Data).
 - **401**: Unauthorized (Invalid/Expired Token).
 - **403**: Forbidden (Admin access required).
